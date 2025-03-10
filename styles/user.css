@@ -1,0 +1,73 @@
+
+.mainContainer{
+    margin: 0 auto;
+    width: 90%;
+}
+
+/* .box{
+    border: 2px solid white;
+} */
+img{
+    border-radius: 40%;
+}
+.contentBox{
+    width: 100%;
+    display: flex;
+}
+.cardBox{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-img-top{
+    width: 40px;
+    margin: 1px auto;
+}
+.card{
+    margin: 2px;
+    padding:2px;
+    text-align: center;
+    background-color: rgb(131, 125, 125);
+}
+input[type="text"]{
+    background-color: grey;
+    border-radius: 3px;
+    border: 0;
+}
+input::placeholder{
+    color:white;
+}
+.table{
+    width: 80%;
+    margin: 3px;
+    background-color: rgb(70, 67, 67);
+}
+a{
+    text-decoration: none;
+    color: cyan;
+}
+.leftContainer{
+    flex-grow: 2;
+}
+.mainBox{
+    flex-grow: 3;
+}
+.leftContainer>ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.leftContainer>ul>li{
+    padding: 3px;
+    margin: 2px 1px;
+}
+.leftContainer>ul>li:last-child{
+    margin-bottom: 0px;
+    color:red;
+}
+.notify{
+    border-radius: 5px;
+    width: 3px;
+    background-color: green;
+    height: 4px;
+}
