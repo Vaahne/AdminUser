@@ -1,9 +1,17 @@
-
 .mainContainer{
-    margin: 0 auto;
+    margin: 0px auto;
     width: 90%;
+    background-color: rgb(137, 90, 90);
 }
-
+.container-fluid,body{
+    background-color: rgb(137, 90, 90);
+}
+.card1{
+    height: 3rem;
+}
+.button{
+    background-color: aqua;
+}
 /* .box{
     border: 2px solid white;
 } */
@@ -26,16 +34,11 @@ img{
     margin: 2px;
     padding:2px;
     text-align: center;
-    background-color: rgb(131, 125, 125);
+    background-color: rgb(166, 129, 129);
+    height: 5%;
+    width: 5%;
 }
-input[type="text"]{
-    background-color: grey;
-    border-radius: 3px;
-    border: 0;
-}
-input::placeholder{
-    color:white;
-}
+
 .table{
     width: 80%;
     margin: 3px;

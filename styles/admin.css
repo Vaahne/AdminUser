@@ -1,0 +1,34 @@
+.container-fluid,body{
+    background-color: rgb(137, 90, 90);
+}
+.mainContainer{
+    background-color: rgb(137, 90, 90); 
+}
+.content{
+    display:flex;
+}
+
+.box{
+    flex-grow: 1;
+    height: 100vh;
+    margin: 2px;
+    padding: 3px;
+}
+.progress{
+    padding: 1px;
+}
+.status{
+    display:flex;
+    justify-content: space-between;
+}
+
+.input[type="search"]::placeholder{
+    background-color:  rgb(137, 90, 90);
+}
+
+#notification{
+    border-radius: 50%;
+}
+.list-group-item{
+    background-color:  rgb(137, 90, 90);     
+}
